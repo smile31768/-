@@ -27,8 +27,3 @@ browser.find_element_by_xpath('html/body/div[1]/div[1]/div[1]/div[1]/div[1]/div[
 # submit
 browser.find_element_by_xpath('html/body/div[1]/div[1]/div[1]/div[1]/button').click()
 print("Submitted")
-time.sleep(3)
-# output
-output = browser.find_element_by_xpath('html/body/div[1]/div[1]/div[1]/div[1]/div[2]/span')
-print(output.text)
-
